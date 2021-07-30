@@ -1,0 +1,239 @@
+/*
+  Wendi Ma
+  Personal Website
+  July 9, 2021
+  This is the style.css page for my AboutMe website.
+  It includes all the CSS needed for my website.
+*/
+
+::selection {
+  background: #cccbc7;
+}
+
+header {
+  text-align: left;
+  margin: 80px;
+  line-height: 15px;
+}
+
+footer {
+  text-align: center;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+}
+
+p {
+  font-family: tommy;
+}
+
+ul {
+  font-family: tommy;
+}
+
+h3 {
+  font-size: 50px;
+  font-family: gentle;
+  font-weight: normal;
+}
+
+.body {
+  display: grid;
+  grid-template-columns: 40% 40%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+  row-gap: 10%;
+  padding-bottom: 45%;
+}
+
+.hobbiesBody {
+  margin-top: 10%;
+}
+
+.title {
+  margin-top: 15%;
+  margin-bottom: 15%;
+}
+
+.text {
+  text-align: left;
+  font-size: 20px;
+  margin-left: 50px;
+  overflow-wrap: break-word;
+  padding-bottom: 10%;
+}
+
+figure {
+  margin-bottom: 15%;
+}
+
+figcaption {
+  margin-left: 30%;
+  margin-right: 30%;
+  font-size: 20px;
+}
+
+/* image and video */
+
+video {
+  width: 15%;
+  height: auto;
+  border: 1vw solid #5e7690;
+  border-radius: 30px;
+  margin: 2%;
+}
+
+#drawing img, #beadedJewelry img {
+  border: 1vw solid #5e7690;
+  border-radius: 30px;
+  width: 27%;
+  margin: 1%;
+}
+
+#wendi {
+  border: 1vw solid #8d6b82;
+  border-radius: 30px;
+  width: 70%;
+  height: auto;
+}
+
+#bread_img, #matcha_cookies, #scones, #choco_chip {
+  border: 1vw solid #89a486;
+  border-radius: 30px;
+  width: 80%;
+  height: auto;
+}
+
+/* fonts */
+
+@font-face {
+  font-family: gentle;
+  src: url(gentle.otf);
+}
+
+@font-face {
+  font-family: tommy;
+  src: url(tommy.otf);
+}
+
+/* page backgrounds and font */
+
+.beigeBody {
+  font-family: tommy;
+  color: #ac8e76;
+  background-color: #eddbc1;
+  background-image: url(background.png);
+  background-size: cover;
+  text-align: center;
+}
+
+.purpleBody {
+  font-family: tommy;
+  color: #8d6b82;
+  background-color: #c6b3c6;
+  text-align: center;
+}
+
+.blueBody {
+  font-family: tommy;
+  color: #5e7690;
+  background-color:#a9b8c1;
+  text-align: center;
+}
+
+.greenBody {
+  font-family: tommy;
+  color: #89a486;
+  background-color:  #c7d6ca;
+  text-align: center;
+}
+
+/* page header */
+
+.purpleH1 {
+  font-size: 100px;
+  font-family: gentle;
+  color: #8d6b82;
+}
+
+.beigeH1 {
+  font-size: 100px;
+  font-family: gentle;
+  color: #ac8e76;
+}
+
+.blueH1 {
+  font-size: 100px;
+  font-family: gentle;
+  color: #5e7690;
+}
+
+.greenH1 {
+  font-size: 100px;
+  font-family: gentle;
+  color: #89a486;
+}
+
+/* navigation bar and links */
+
+.beigeNavBar, .blueNavBar, .greenNavBar, .purpleNavBar {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  margin: 80px;
+  text-align: right;
+}
+
+.beigeLink, .beigeNavBar, .blueLink, .blueNavBar, .greenLink, .greenNavBar, .purpleNavBar{
+  font-family: tommy;
+  font-size: 20px;
+}
+
+.beigeLink a {
+  color: #c0a486 !important;
+  padding: 15px;
+  text-decoration: none;
+}
+
+.beigeLink a:hover, .blueLink a:hover, .greenLink a:hover, .beigeNavBar a:hover,
+.blueNavBar a:hover, .greenNavBar a:hover, .beigeNavBar .current, .blueNavBar .current,
+.greenNavBar .current, .purpleNavBar .current {
+  text-decoration: underline;
+}
+
+.purpleNavBar a {
+  color: #a3849d !important;
+  padding: 15px;
+  text-decoration: none;
+}
+
+.blueLink a {
+  color: #7d94aa !important;
+  padding: 15px;
+  text-decoration: none;
+}
+
+.greenLink a {
+  color: #9ab29c !important;
+  padding: 15px;
+  text-decoration: none;
+}
+
+.beigeNavBar a {
+  color: #c0a486 !important;
+  padding: 15px;
+  text-decoration: none;
+}
+
+.blueNavBar a {
+  color: #7d94aa !important;
+  padding: 15px;
+  text-decoration: none;
+}
+
+.greenNavBar a {
+  color: #9ab29c !important;
+  padding: 15px;
+  text-decoration: none;
+}
